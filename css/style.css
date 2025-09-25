@@ -20,7 +20,8 @@ h6 {
 	font-family: 'Dosis', sans-serif;
 }
 
-/*Header*/
+/********* Header **********/
+
 .navbar-default .navbar-nav>li>a {
 	color: #777;
 	text-transform: uppercase;
@@ -49,6 +50,13 @@ header {
 	color: #010101;
 	font-size: 40px;
 	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.home_text h1 {
+	color: #010101;
+	font-size: 35px;
+	text-transform: uppercase;
 	letter-spacing: 4px;
 }
 
@@ -72,6 +80,7 @@ header {
 
 
 /*Services*/
+
 .services {
 	padding-top: 96px;
 
