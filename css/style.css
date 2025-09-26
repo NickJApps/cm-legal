@@ -162,14 +162,22 @@ header::before {
 .single_contact_info h2 {
 	text-transform: uppercase;
 	color: #3d3d3d;
-	font-size: 18px;
-	letter-spacing: 3px;
+	font-size: 15px;
+	letter-spacing: 4px;
 	margin-bottom: 1px;
 }
 
+.contact_tel {
+	font-size: 30px;
+}
+
+.contact_mail{
+	font-size: 26px;
+}
+
 .single_contact_info p {
-	font-size: 15px;
-	color: #3d3d3d;
+	font-size: 17px;
+	color: #f73b56;
 }
 
 .contact-form {
