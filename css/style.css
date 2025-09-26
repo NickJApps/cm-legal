@@ -32,15 +32,15 @@ h6 {
 }
 
 header {
-  position: relative;
-  background: url(../images/header_bg.jpg) no-repeat center/cover;
+	position: relative;
+	background: url(../images/header_bg.jpg) no-repeat center/cover;
 }
 
 header::before {
-  content: "";
-  position: absolute;
-  inset: 0; 
-  background: rgb(241 236 236 / 60%);
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgb(241 236 236 / 60%);
 }
 
 .section_overlay {
@@ -153,6 +153,10 @@ header::before {
 	align-items: center;
 }
 
+.typical-task-price{
+	font-weight: 700;
+}
+
 /********** Contact **********/
 
 .single_contact_info {
@@ -171,7 +175,7 @@ header::before {
 	font-size: 30px;
 }
 
-.contact_mail{
+.contact_mail {
 	font-size: 26px;
 }
 
@@ -241,4 +245,21 @@ footer {
 	text-transform: uppercase;
 	font-weight: 700;
 	text-decoration: none;
+}
+
+
+@media (max-width: 994px) {
+	.typical-task {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.typical-task-price {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.typical-task-price p:first-child{
+		margin-right: 20px;
+	}
 }
