@@ -62,8 +62,8 @@ header {
 
 .home_text p {
 	color: #000000;
-	font-size: 30px;
-	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
 }
 
 
@@ -82,11 +82,11 @@ header {
 
 .section_title h2 {
 	font-size: 25px;
-    color: #000;
-    text-transform: uppercase;
-    margin-top: 150px;
-    letter-spacing: 6px;
-    margin-bottom: 10px;
+	color: #000;
+	text-transform: uppercase;
+	margin-top: 150px;
+	letter-spacing: 6px;
+	margin-bottom: 10px;
 }
 
 .section_title img {
@@ -102,42 +102,6 @@ header {
 	margin-top: 20px;
 	margin-bottom: 10px;
 	line-height: 21px;
-}
-
-
-/********** Services **********/
-
-.services {
-	padding-top: 96px;
-
-}
-
-.services .container {
-	border-bottom: 1px solid #ddd;
-}
-
-.single_service {
-	padding-bottom: 10px;
-}
-
-.single_service i {
-	font-size: 25px;
-	color: #f73b56;
-}
-
-.single_service h2 {
-	color: #000000;
-	font-size: 25px;
-	text-transform: uppercase;
-}
-
-.single_service p {
-	color: #404040;
-	font-size: 14px;
-}
-
-.service-list {
-	text-align: left;
 }
 
 .single_progress_bar .progress {
@@ -159,6 +123,26 @@ header {
 	font-size: 14px;
 	font-weight: 400;
 }
+
+/********** Services **********/
+
+.service_item_title {
+	margin: 50px 0 25px 0;
+}
+
+.service-list {
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Typical Task */
