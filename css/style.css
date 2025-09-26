@@ -135,17 +135,12 @@ header {
 }
 
 
+/********** Typical Task & Price **********/
 
-
-
-
-
-
-
-
-
-
-/* Typical Task */
+.call_to_action .container {
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ddd;
+}
 
 .typical-task {
 	display: flex;
@@ -398,10 +393,7 @@ header {
 	border-color: #f74d65;
 }
 
-.call_to_action .container {
-	padding-bottom: 60px;
-	border-bottom: 1px solid #ddd;
-}
+
 
 /*Contact*/
 
