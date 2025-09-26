@@ -78,8 +78,34 @@ header {
 	text-transform: uppercase;
 }
 
+/********* Section title **********/
 
-/*Services*/
+.section_title h2 {
+	font-size: 25px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 150px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+
+.section_title img {
+	margin-bottom: 70px;
+}
+
+
+/********* About Us **********/
+
+.about_us_p {
+	font-size: 14px;
+	color: #272727;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 21px;
+}
+
+
+/********** Services **********/
 
 .services {
 	padding-top: 96px;
@@ -134,30 +160,6 @@ header {
 	font-weight: 400;
 }
 
-.about_us_p {
-	font-size: 14px;
-	color: #272727;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	line-height: 21px;
-}
-
-.about_title h2 {
-	font-size: 25px;
-	color: #3d3d3d;
-	text-transform: uppercase;
-	margin-top: 85px;
-	letter-spacing: 6px;
-	margin-bottom: 21px;
-}
-
-.about_title img {
-	margin-bottom: 70px;
-}
-
-.service_item_title {
-	margin-bottom: 30px;
-}
 
 /* Typical Task */
 
