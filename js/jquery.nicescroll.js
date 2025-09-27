@@ -1959,7 +1959,24 @@
         return fn.call(dom,event);      
       },bubble);
     };     
-   
+  
+    this._bind = function(el, name, fn, bubble) {  // primitive bind
+      self.events.push({ e: el, n: name, f: fn, b: bubble, q: false });
+      if (el.addEventListener) {
+        el.addEventListener(name, fn, { passive: false, capture: bubble || false });
+      }
+      else if (el.attachEvent) {
+        el.attachEvent("on" + name, fn);
+      }
+      else {
+        el["on" + name] = fn;        
+      }        
+    };  
+
+
+
+
+/*
     this._bind = function(el,name,fn,bubble) {  // primitive bind
       self.events.push({e:el,n:name,f:fn,b:bubble,q:false});
       if (el.addEventListener) {
@@ -1973,6 +1990,8 @@
       }        
     };
    
+*/  
+    
     this.jqbind = function(dom,name,fn) {  // use jquery bind for non-native events (mouseenter/mouseleave)
       self.events.push({e:dom,n:name,f:fn,q:true});
       $(dom).bind(name,fn);
