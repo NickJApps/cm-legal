@@ -163,9 +163,14 @@ header::before {
 }
 
 /********** Contact **********/
+.contact-row{
+	display: flex;
+	justify-content: center;
+}
 
 .single_contact_info {
 	padding-bottom: 21px;
+	text-align: center;
 }
 
 .single_contact_info h2 {

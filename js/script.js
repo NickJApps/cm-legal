@@ -64,17 +64,3 @@ $(window).load(function () { // makes sure the whole site is loaded
 })
 //>
 
-/* Form vertification*/
-
-$("#contact-form").on("submit", function (e) {
-  let name = $("#name").val().trim();
-  let email = $("#email").val().trim();
-  let subject = $("#subject").val().trim();
-  let message = $("#message").val().trim();
-
-  if (!name || !email || !subject || !message) {
-    e.preventDefault();
-    alert("Пожалуйста, заполните все поля!");
-    return false;
-  }
-});
