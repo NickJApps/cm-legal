@@ -163,7 +163,7 @@ header::before {
 }
 
 /********** Contact **********/
-.contact-row{
+.contact-row {
 	display: flex;
 	justify-content: center;
 }
@@ -186,7 +186,7 @@ header::before {
 }
 
 .contact_mail {
-	font-size: 26px;
+	font-size: 22px;
 }
 
 .single_contact_info p {
@@ -229,6 +229,42 @@ header::before {
 	font-size: 14px;
 	color: #636363;
 	text-transform: uppercase;
+}
+
+/********** social  **********/
+
+.contact-social {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: center;
+}
+
+.contact-social .social-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: #fff;
+	padding: 10px 16px;
+	border-radius: 50px;
+	text-decoration: none;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	width: fit-content;
+}
+
+.contact-social .telegram {
+	background-color: #0088cc;
+}
+
+.contact-social .whatsapp {
+	background-color: #25d366;
+}
+
+.contact-social .social-link:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 /********** footer **********/
@@ -309,4 +345,3 @@ footer {
 		font-size: 17px;
 	}
 }
-	
