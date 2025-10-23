@@ -162,6 +162,35 @@ header::before {
 	font-size: 25px;
 }
 
+
+/********** Info-blog **********/
+
+.useful_button{
+	font-weight: 600;
+}
+
+.info_blog_item {
+	margin: 30px 0 10px 0;
+}
+
+.info_blog_title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.info_blog_title h2 {
+	font-size: 23px;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.info_blog_text {
+	margin-top: 10px;
+	font-size: 13px;
+}
+
 /********** Contact **********/
 .contact-row {
 	display: flex;
