@@ -52,6 +52,11 @@ header::before {
 	padding-bottom: 210px;
 }
 
+.home_text h3{
+	font-size: 21px;
+	font-weight: 500;
+}
+
 .home_text h2 {
 	color: #010101;
 	font-size: 40px;
