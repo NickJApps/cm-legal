@@ -167,6 +167,10 @@ header::before {
 	font-size: 25px;
 }
 
+/********** remote consult **********/
+.consult{
+	margin-bottom: 45px;
+}
 
 /********** Info-blog **********/
 
